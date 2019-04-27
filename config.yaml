@@ -23,7 +23,7 @@ compression:
 metrics:
   type: "none" # Can also be "influx"
   influx:
-    host: "http://influx.prebid.com"
-    database: "some-database"
-    username: "influx-username"
-    password: "influx-password"
+    host: "http://influxdb.internal.gamoshi.io:8086"
+    database: "prebidcache"
+    username: "prebidcache"
+    password: "prebidcache"
